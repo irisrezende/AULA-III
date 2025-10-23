@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - Aplicação Web</title>
+    <link rel="stylesheet" href="css/design-system.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-logo">ONG Resgate</a>
+            
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li class="dropdown">
+                        <a href="#projetos" class="nav-link">Projetos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#projetos-a">Projeto A</a></li>
+                            <li><a href="#projetos-b">Projeto B</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#cadastro" class="nav-link">Cadastro</a></li>
+                    <li><a href="#doar" class="btn btn-primary">Doe Agora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app-container"></main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 - Todos os direitos reservados - ONG Resgate</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
